@@ -6,8 +6,8 @@
     * [常见问题](/lobby/Q&A.md)
 
 * 梦境 Dreamland
+    * [更多农作物](/gameplay/farming.md)
     * [更多附魔](/gameplay/enchant.md)
-    * [类星露谷农业](/gameplay/farming.md)
     * [钓鱼革新](/gameplay/fishing.md)
     * [酿酒业](/gameplay/brewery.md)
     * [特殊 BOSS](/gameplay/boss.md)

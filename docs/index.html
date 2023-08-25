@@ -7,7 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css"> -->
+  <link rel="stylesheet" href="css/tabs.css">
+  <link rel="stylesheet" href="css/imgs.css">
 </head>
 <body>
   <!-- <nav>
@@ -54,6 +55,15 @@
         crossChapterText: false,
       },
 
+      // Tab 栏
+      tabs: {
+        persist    : true,
+        sync       : true,
+        theme      : 'material',
+        tabComments: true,
+        tabHeadings: true
+      }
+
     }
   </script>
   <!-- Docsify v4 -->
@@ -66,5 +76,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- 分页导航 -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- TAB 栏 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 </html>
